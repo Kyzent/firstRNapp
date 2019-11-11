@@ -25,7 +25,8 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
-  console.log('I am a console statement');
+  console.log('Welcome to C308 Lesson 04 quiz!');
+  console.log('Your component here');
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -41,21 +42,9 @@ const App: () => React$Node = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Welcome!</Text>
-              <Text style={styles.sectionDescription}>
-                This is a <Text style={styles.highlight}>boring</Text> page.
-              </Text>
-              <Text style={styles.sectionDescription}>This page will not contain anything substantial</Text>
-              <Text style={styles.sectionDescription}>However, feel free to read this completely useless texts in this page</Text>
-              <Text style={styles.sectionDescription}>Here are a couple more text so that the page is not completely white</Text>
-              <Text style={styles.sectionDescription}>One, Two, Three</Text>
-              <Text style={styles.sectionDescription}>Four, Five, Six</Text>
-              <Text style={styles.sectionDescription}>Seven, Eight, Nine</Text>
-              <Text style={styles.sectionDescription}>Is this the end of the page?</Text>
-              <Text style={styles.sectionDescription}>No!</Text>
-              <Text style={styles.sectionDescription}>*Insert more text here*</Text>
-              <Text style={styles.sectionDescription}>Is this the end of the page?</Text>
-              <Text style={styles.sectionDescription}>Yes!</Text>
+              <Text style={styles.sectionTitle}>Set Pickup Time</Text>
+              <Text style={styles.sectionDescription}>Set a time you would like us to arrive at your pickup location</Text>
+              <Text style={styles.highlight}>RP Furniture Shop</Text>
             </View>
           </View>
         </ScrollView>
